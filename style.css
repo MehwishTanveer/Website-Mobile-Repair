@@ -1,0 +1,227 @@
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #456B90;
+}
+#page{
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #FFF ;
+    border: 4px double #66D9C1;
+}
+#logo{
+    text-align: center;
+    width: 470px;
+    height: 300px;
+    margin: 0px auto 80px auto;
+}
+
+.logo-head{
+    font-family: 'Tangerine', serif;
+    font-size: 80px;
+    margin: 0px auto 80px auto;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px lightseagreen
+}
+ul{ 
+    max-width: 940px;
+    min-width: 600px;
+    padding: 30px;
+    background-color: #9BDDFF;
+    margin: 0px auto;
+    text-align: center;
+    border-top: 5px dotted #82318D;
+    border-bottom: 5px dotted #82318D;
+}
+li{
+    display: inline;
+    padding: 10px;
+    background-color: #E87AED;
+    margin: 0px 20px;
+    font-weight: bold;
+}
+li a:link{
+    text-decoration: none;
+    color: #000;
+}
+
+li a:hover{
+    color: #F7F7F7 !important;
+}
+
+li a:visited{
+    color: #000;
+}
+.active{
+    background-color: navy;
+}
+.active a{
+    color: #E87AED !important;
+}
+
+#slide{
+    text-align: center;
+    margin: 30px auto;
+}
+#mobile-slide{
+    max-width: 940px;
+    min-width: 720px;
+    height: 330px;
+}
+#intro{
+    max-width: 910px;
+    min-width: 700px;
+    text-align: center;
+    background-color: #B5E8D5;
+    margin: 20px auto;
+    padding: 10px;
+    border:  2px solid #66D9C1;
+}
+#italic{
+    text-align: center;
+}
+#about{ 
+    max-width: 910px;
+    min-width: 700px;   
+    text-align: center;
+    background-color: #FFCC99;
+    margin: 20px auto;
+    padding: 10px;
+    border:  2px solid #66D9C1;
+}
+
+footer{
+    max-width: 990px;
+    min-width: 720px;
+    text-align: center;
+    margin: 20px auto;
+    color: #000;
+    background-color: lightgrey;
+    border: 1px solid #000;
+}
+#contact{ 
+    max-width: 910px;
+    min-width: 700px;   
+    text-align: left;
+    background-color: #FFCC99;
+    margin: 20px auto;
+    padding: 10px;
+    border:  2px solid #66D9C1;
+}
+
+h1.contact{ 
+    text-align: center;
+}
+.c-div{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.contact-form{
+    float: right;
+}
+.contact-form button{
+    float: right;
+    margin-top: 8px;
+    border: 2px solid maroon;
+    background-color: lightgreen;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 10px; 
+}
+.contact-form button:hover{
+    background-color: #FFF;
+    cursor: pointer;
+}
+#repair{
+    max-width: 910px;
+    min-width: 700px;   
+    text-align: left;
+    background-color: #FFCC99;
+    margin: 20px auto;
+    padding: 10px;
+    border:  2px solid #66D9C1;
+}
+
+h1.repair{
+    text-align: center;
+}
+i.left{
+    float: left; 
+    margin-left: 10px;
+} 
+#return{
+    background-color: #9BDDFF;
+    width: 650px;
+    height: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    text-justify: inter-cluster;
+    border-radius: 20px;
+}
+#broken{
+    background-color: #9BDDFF;
+    width: 650px;
+    height: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    text-justify: inter-cluster;
+    border-radius: 20px; 
+} 
+#send {
+    background-color: #9BDDFF;
+    width: 650px;
+    height: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    text-justify: inter-cluster;
+    border-radius: 20px; 
+}
+
+#fix{
+    background-color: #9BDDFF;
+    width: 650px;
+    height: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    text-justify: inter-cluster;
+    border-radius: 20px;
+}
+
+#shop{
+    max-width: 910px;
+    min-width: 700px;   
+    text-align: center;
+    background-color: #FFCC99;
+    margin: 20px auto;
+    padding: 10px;
+    border:  2px solid #66D9C1;
+}
+.phone{
+    text-align: centre;
+    margin: 10px;
+    display: inline-block;
+}
+figure {    
+    display: block;    
+    width: 180px;    
+    height: 200px;    
+    background-color: #9BDDFF;    
+    padding: 9px;    
+    text-align: center;
+}
+figure img {
+    width: 100px; 
+    height: 120px;
+    border: 1px solid #d6d6d6;
+}
+figcaption {    
+    background-image: url("images/icon.png");   
+    padding-left: 20px;    
+    background-repeat: no-repeat;
+}
